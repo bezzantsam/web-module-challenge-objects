@@ -98,7 +98,12 @@ console.log(reviews[5]);
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
   2. log the reviews array to the console to check your work
-*/
+*/  
+ reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays"
+ console.log(reviews[7]);
+
+
+
 
 
 
@@ -113,9 +118,17 @@ Write a function that creates an object with name, rating, feedback, add the new
   4. should return the resulting array
 */
 
-function addReview(/*Your Code Here */){
-  /*Your Code Here */
+function addReview(){
+//   name: 
+//   rating: this.rating,
+//   feedback: this.feedback
+  
 }
+    
+//   return array
+//   }
+
+// console.log(addReview())
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
