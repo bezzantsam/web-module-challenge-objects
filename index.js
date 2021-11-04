@@ -129,7 +129,6 @@ function addReview(array, name, rating, feedback){
     
    
 
-console.log(addReview(reviews, 'Daniela', 5, 'Beautiful atmosphere and wonderful vegan options!', 5, 'Beautiful atmosphere and wonderful vegan options!'));
 
 
   
@@ -146,11 +145,12 @@ Use the getReviewByIndex function below to do the following:
 
 
 function getReviewByIndex(array, index) {
+   let review = array[index];
+  return `${review.name} gave the restaurant a ${review.rating} star review, and their feedback was: ${review.feedback}`;
    
-   return `${this.index} gave the restaurant a ${this.rating} star review, and their feedback was ${this.feedback}` ,
-   console.log(getReviewByIndex(reviews, 2))
 
 }
+console.log(getReviewByIndex(reviews, 0));
 
 
 
